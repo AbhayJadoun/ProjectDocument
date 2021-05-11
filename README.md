@@ -1,6 +1,9 @@
 **API to get filtered CRM Data**
 ----
-  Fetching Result CRM data on the basis of the filter request json.
+
+Fetching Result CRM data on the basis of the filter request json.
+
+<details>  
 
 * **URL**
 
@@ -12,16 +15,17 @@
   
 *  **URL Params**
 
-   **Required:**
+	**Required:**
  
-   `tenantId=[GUID]`
+   	`tenantId=[GUID]`
 
    
 
 * **Data Params**
 
   **CRMResultData:**
-`{`
+  
+  `{`
 			`id		string`	
 					`nullable: true`
 			`label	string` 	
@@ -48,9 +52,9 @@
 * **Success Response:**
  
   * **Code:** 200 <br />
-    **Content:** 
+  * **Content:** 
     
-    ```json
+```json
         [
           { 
             "ActivityType": "Meeting", 
@@ -61,7 +65,7 @@
             "Location": "Meeting room, churchill" 
           }
         ]
-    ```
+```
 
 
 * **Sample Call:**
@@ -83,5 +87,4 @@
  ``` 
 
 * **Notes:**
-
- 
+</details>
